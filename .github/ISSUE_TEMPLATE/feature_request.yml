@@ -47,6 +47,6 @@ body:
         label: Which operating systems have you used?
         description: You may select more than one.
         options:
-          - label: macOS
+          - label: I have checked for existing feature suggestions.
         #   - label: Windows
         #   - label: Linux
