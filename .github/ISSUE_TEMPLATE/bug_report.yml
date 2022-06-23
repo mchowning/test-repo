@@ -36,11 +36,9 @@ body:
           required: false
 
     - type: dropdown
-      id: existing
       attributes:
           label: Checked for existing bug reports?
           description: Please confirm that you searched for existing bug reports in https://github.com/Automattic/pocket-casts-android/issues before opening this issue.
-          multiple: true
           options:
               - 'Yes'
               - 'No'

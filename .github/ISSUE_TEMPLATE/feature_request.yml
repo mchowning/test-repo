@@ -26,11 +26,9 @@ body:
           required: true
 
     - type: dropdown
-      id: existing
       attributes:
           label: Searched for existing feature suggestions?
           description: Please confirm that you searched for existing feature suggestions in https://github.com/Automattic/pocket-casts-android/issues before opening this issue.
-          multiple: true
           options:
               - 'Yes'
               - 'No'
