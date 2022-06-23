@@ -29,5 +29,5 @@ body:
         label: Did you search for existing feature suggestions?
         description: Please confirm that you searched for existing feature suggestions in https://github.com/Automattic/pocket-casts-android/issues before opening this issue.
         options:
-          - label: I have checked for existing feature suggestions.
+          - label: I have searched for existing feature suggestions.
             required: true
