@@ -34,10 +34,10 @@ body:
       validations:
           required: true
 
-    - type: checkboxes
-        attributes:
-          label: Did you search for existing feature suggestions?
-          description: description
-          options:
-            - label: Yes
-            - label: No
+    # - type: checkboxes
+    #     attributes:
+    #       label: Did you search for existing feature suggestions?
+    #       description: description
+    #       options:
+    #         - label: Yes
+    #         - label: No
