@@ -5,25 +5,17 @@ body:
     - type: markdown
       attributes:
           value: |
-              Thanks for taking the time to fill out this bug report!
+              __Thanks for taking the time to fill out this bug report!__
 
     - type: dropdown
       id: existing
       attributes:
-          label: Please confirm that you have checked for existing bug reports.
-          description: You can do this by searching https://github.com/Automattic/pocket-casts-android/issues.
+          label: Checked for existing bug reports
+          description: Please confirm that you have searched for existing bug reports in https://github.com/Automattic/pocket-casts-android/issues.
           multiple: true
           options:
               - 'Yes'
               - 'No'
-      validations:
-          required: true
-
-    - type: checkboxes
-      attributes:
-          label: Please check for existing bug reports by searching https://github.com/Automattic/pocket-casts-android/issues.
-          options:
-              - label: I have checked for existing bug reports.
       validations:
           required: true
 
@@ -39,7 +31,6 @@ body:
     - type: textarea
       attributes:
           label: Step-by-step reproduction instructions
-          description: Please write the steps needed to reproduce the bug.
           placeholder: |
               1. Go to '...'
               2. Click on '...'
@@ -75,15 +66,3 @@ body:
           placeholder: e.g. 7.19.0
       validations:
           required: true
-
-    - type: textarea
-      attributes:
-          label: Environment info
-          description: |
-              Please list what Gutenberg version you are using. If you aren't using Gutenberg, please note that it's not installed.
-          placeholder: |
-              - WordPress version, Gutenberg version, and active Theme you are using.
-              - Browser(s) are you seeing the problem on.
-              - Device you are using and operating system (e.g. "Desktop with Windows 10", "iPhone with iOS 14", etc.).
-      validations:
-          required: false
