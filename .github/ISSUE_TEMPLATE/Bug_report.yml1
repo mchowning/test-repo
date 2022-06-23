@@ -1,11 +1,12 @@
 name: Bug report
 description: Report a bug with the Pocket Casts Android app
+labels: ["bug", "triage"]
 body:
 
     - type: markdown
       attributes:
           value: |
-              _Thanks for taking the time to fill out this bug report!_
+              _Thanks for taking the time to file this bug report!_
 
     - type: textarea
       attributes:
