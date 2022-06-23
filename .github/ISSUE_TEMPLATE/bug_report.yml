@@ -37,7 +37,7 @@ body:
 
     - type: dropdown
       attributes:
-          label: Checked for existing bug reports?
+          label: Did you search for existing bug reports?
           description: Please confirm that you searched for existing bug reports in https://github.com/Automattic/pocket-casts-android/issues before opening this issue.
           options:
               - 'Yes'
