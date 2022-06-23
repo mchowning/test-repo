@@ -40,4 +40,3 @@ body:
           description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
           options:
             - label: Please confirm that you searched for existing feature suggestions in https://github.com/Automattic/pocket-casts-android/issues before opening this issue.
-                required: true
