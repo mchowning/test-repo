@@ -24,23 +24,23 @@ body:
       validations:
           required: true
 
-    - type: dropdown
-      attributes:
-          label: Did you search for existing feature suggestions?
-          description: Please confirm that you searched for existing feature suggestions in https://github.com/Automattic/pocket-casts-android/issues before opening this issue.
-          options:
-              - 'Yes'
-              - 'No'
-      validations:
-          required: true
-
-    # - type: checkboxes
-    #     attributes:
+    # - type: dropdown
+    #   attributes:
     #       label: Did you search for existing feature suggestions?
-    #       description: description
+    #       description: Please confirm that you searched for existing feature suggestions in https://github.com/Automattic/pocket-casts-android/issues before opening this issue.
     #       options:
-    #         - label: Yes
-    #         - label: No
+    #           - 'Yes'
+    #           - 'No'
+    #   validations:
+    #       required: true
+
+    # # - type: checkboxes
+    # #     attributes:
+    # #       label: Did you search for existing feature suggestions?
+    # #       description: description
+    # #       options:
+    # #         - label: Yes
+    # #         - label: No
     - type: checkboxes
       attributes:
         label: Did you search for existing feature suggestions?
