@@ -45,23 +45,10 @@ body:
       validations:
           required: true
 
-    - type: input
+    - type: textarea
       attributes:
-          label: Device
-          placeholder: e.g. Google Pixel 6
+          label: Device, Operating system, and Pocket Casts app version
+          placeholder: |
+              Google Pixel 6 wAndroid 12, Pocket Casts 7.19.0
       validations:
-          required: true
-
-    - type: input
-      attributes:
-          label: Operating system
-          placeholder: e.g. Android 12
-      validations:
-          required: true
-
-    - type: input
-      attributes:
-          label: Pocket Casts app version
-          placeholder: e.g. 7.19.0
-      validations:
-          required: true
+          required: false
