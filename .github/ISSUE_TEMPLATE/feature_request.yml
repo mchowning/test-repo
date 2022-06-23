@@ -45,7 +45,7 @@ body:
       id: operating-systems
       attributes:
         label: Which operating systems have you used?
-        description: You may select more than one.
+        description: Please confirm that you searched for existing feature suggestions in https://github.com/Automattic/pocket-casts-android/issues before opening this issue.
         options:
           - label: I have checked for existing feature suggestions.
         #   - label: Windows
