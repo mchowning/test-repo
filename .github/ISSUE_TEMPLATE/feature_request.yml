@@ -41,3 +41,12 @@ body:
     #       options:
     #         - label: Yes
     #         - label: No
+    - type: checkboxes
+      id: operating-systems
+      attributes:
+        label: Which operating systems have you used?
+        description: You may select more than one.
+        options:
+          - label: macOS
+          - label: Windows
+          - label: Linux
