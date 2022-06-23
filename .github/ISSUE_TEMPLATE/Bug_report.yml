@@ -20,12 +20,12 @@ body:
           required: true
 
     - type: checkboxes
-        attributes:
-            label: Please check for existing bug reports by searching https://github.com/Automattic/pocket-casts-android/issues.
-            options:
-                - label: I have checked for existing bug reports.
-        validations:
-            required: true
+      attributes:
+          label: Please check for existing bug reports by searching https://github.com/Automattic/pocket-casts-android/issues.
+          options:
+              - label: I have checked for existing bug reports.
+      validations:
+          required: true
 
     - type: textarea
       attributes:
@@ -56,25 +56,25 @@ body:
           required: false
 
     - type: input
-        attributes:
-            label: Device
-            placeholder: e.g. Google Pixel 6
-        validations:
-            required: true
+      attributes:
+          label: Device
+          placeholder: e.g. Google Pixel 6
+      validations:
+          required: true
 
     - type: input
-        attributes:
-            label: Operating system
-            placeholder: e.g. Android 12
-        validations:
-            required: true
+      attributes:
+          label: Operating system
+          placeholder: e.g. Android 12
+      validations:
+          required: true
 
     - type: input
-        attributes:
-            label: Pocket Casts app version
-            placeholder: e.g. 7.19.0
-        validations:
-            required: true
+      attributes:
+          label: Pocket Casts app version
+          placeholder: e.g. 7.19.0
+      validations:
+          required: true
 
     - type: textarea
       attributes:
