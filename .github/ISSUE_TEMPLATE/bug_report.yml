@@ -47,6 +47,6 @@ body:
       attributes:
           label: Device, Operating system, and Pocket Casts app version
           placeholder: |
-              Google Pixel 6 wAndroid 12, Pocket Casts 7.19.0
+              Google Pixel 6 Android 12, Pocket Casts 7.19.0
       validations:
           required: false
