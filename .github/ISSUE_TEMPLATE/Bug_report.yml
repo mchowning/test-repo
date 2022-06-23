@@ -46,18 +46,6 @@ body:
       validations:
           required: true
 
-    - type: dropdown
-      id: existing
-      attributes:
-          label: Checked for existing bug reports?
-          description: Please confirm that you searched for existing bug reports in https://github.com/Automattic/pocket-casts-android/issues before opening this issue.
-          multiple: true
-          options:
-              - 'I have checked for existing bug reports and did not find any.'
-      validations:
-          required: true
-
-
     - type: input
       attributes:
           label: Device
