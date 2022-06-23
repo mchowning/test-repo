@@ -1,11 +1,11 @@
 name: Bug report
-description: Report a bug with the WordPress block editor or Gutenberg plugin
+description: Report a bug with the Pocket Casts Android app
 body:
 
     - type: markdown
       attributes:
           value: |
-              __Thanks for taking the time to fill out this bug report!__
+              _Thanks for taking the time to fill out this bug report!_
 
     - type: textarea
       attributes:
