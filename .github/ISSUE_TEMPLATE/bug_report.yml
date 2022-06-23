@@ -1,0 +1,89 @@
+name: Bug report
+description: Report a bug with the WordPress block editor or Gutenberg plugin
+body:
+
+    - type: markdown
+      attributes:
+          value: |
+              Thanks for taking the time to fill out this bug report!
+
+    - type: dropdown
+      id: existing
+      attributes:
+          label: Please confirm that you have checked for existing bug reports.
+          description: You can do this by searching https://github.com/Automattic/pocket-casts-android/issues.
+          multiple: true
+          options:
+              - 'Yes'
+              - 'No'
+      validations:
+          required: true
+
+    - type: checkboxes
+        attributes:
+            label: Please check for existing bug reports by searching https://github.com/Automattic/pocket-casts-android/issues.
+            options:
+                - label: I have checked for existing bug reports.
+        validations:
+            required: true
+
+    - type: textarea
+      attributes:
+          label: Description
+          description: Please write a brief description of the bug, including what you expect to happen and what is currently happening.
+          placeholder: |
+              Feature '...' is not working properly. I expect '...' to happen, but '...' happens instead
+      validations:
+          required: true
+
+    - type: textarea
+      attributes:
+          label: Step-by-step reproduction instructions
+          description: Please write the steps needed to reproduce the bug.
+          placeholder: |
+              1. Go to '...'
+              2. Click on '...'
+              3. Scroll down to '...'
+      validations:
+          required: true
+
+    - type: textarea
+      attributes:
+          label: Screenshots, screen recording, code snippet
+          description: |
+              If possible, please upload a screenshot or screen recording which demonstrates the bug.
+      validations:
+          required: false
+
+    - type: input
+        attributes:
+            label: Device
+            placeholder: e.g. Google Pixel 6
+        validations:
+            required: true
+
+    - type: input
+        attributes:
+            label: Operating system
+            placeholder: e.g. Android 12
+        validations:
+            required: true
+
+    - type: input
+        attributes:
+            label: Pocket Casts app version
+            placeholder: e.g. 7.19.0
+        validations:
+            required: true
+
+    - type: textarea
+      attributes:
+          label: Environment info
+          description: |
+              Please list what Gutenberg version you are using. If you aren't using Gutenberg, please note that it's not installed.
+          placeholder: |
+              - WordPress version, Gutenberg version, and active Theme you are using.
+              - Browser(s) are you seeing the problem on.
+              - Device you are using and operating system (e.g. "Desktop with Windows 10", "iPhone with iOS 14", etc.).
+      validations:
+          required: false
