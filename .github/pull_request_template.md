@@ -18,8 +18,8 @@ Fixes # <!-- issue number, if applicable -->
 - [ ] Any jetpack compose components I added or changed are covered by compose previews
  
 ##### I have tested any UI changes...
-<!-- If this PR does not contain any UI changes, ignore these -->
-- [ ] ...with different themes
-- [ ] ...with a landscape orientation
-- [ ] ...with the device set to have a large display and font size
-- [ ] ...for accessibility with TalkBack
+<!-- If this PR does not contain UI changes, ignore these items -->
+- [ ] with different themes
+- [ ] with a landscape orientation
+- [ ] with the device set to have a large display and font size
+- [ ] for accessibility with TalkBack
