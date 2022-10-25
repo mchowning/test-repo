@@ -19,8 +19,8 @@ Fixes # (issue) <!-- if applicable -->
 - [ ] I have considered adding tests for my changes
 - [ ] There are Compose previews covering any components I added or changed
  
-- I have tested any UI changes...
-    - [ ] with different themes
-    - [ ] with a landscape orientation
-    - [ ] with the device set to have a large display and font size
-    - [ ] for accessibility with TalkBack
+#### I have tested any UI changes...
+- [ ] with different themes
+- [ ] with a landscape orientation
+- [ ] with the device set to have a large display and font size
+- [ ] for accessibility with TalkBack
