@@ -3,3 +3,9 @@ contact_links:
   - name: General help request
     url: https://support.pocketcasts.com/android/
     about: For general help requests, check the faq or get in touch with support.
+  - name: General help request with link
+    url: https://support.pocketcasts.com/android/
+    about: For general help requests, check the faq (https://support.pocketcasts.com/android/) or get in touch with support.
+  - name: General help request with markdown link
+    url: https://support.pocketcasts.com/android/
+    about: For general help requests, check [the faq](https://support.pocketcasts.com/android/) or get in touch with support.
